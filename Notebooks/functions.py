@@ -1,4 +1,16 @@
 # Calculate percentage change for each column grouped by country
+# lu	Percentage of No Schooling Attained in Pop.
+# lp	Percentage of Primary Schooling Attained in Pop.
+# lpc	Percentage of Complete Primary Schooling Attained in Pop.
+# ls	Percentage of Secondary Schooling Attained in Pop.
+# lsc	Percentage of Complete Secondary Schooling Attained in Pop.
+# lh	Percentage of Tertiary Schooling Attained in Pop.
+# lhc	Percentage of Complete Tertiary Schooling Attained in Pop.
+# yr_sch	Average Years of Schooling Attained
+# yr_sch_pri	Average Years of Primary Schooling Attained
+# yr_sch_sec	Average Years of Secondary Schooling Attained
+# yr_sch_ter	Average Years of Tertirary Schooling Attained
+# pop	Population
 
 def edu_perc(df):
     df['yr_sch_%'] = df.groupby('country')['yr_sch'].pct_change() * 100
