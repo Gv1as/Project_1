@@ -49,6 +49,9 @@ Negative values posed challenges when applying transformations such as logarithm
 While statistically significant relationships were identified between education indicators and economic outcomes, the explanatory power of our models was limited, with R-squared values indicating low predictive accuracy. 
 Additional variables are required to further investigate these relationships effectively.
 
+## Presentation url:
+   https://www.canva.com/design/DAF-1XVQWtI/ATOvyeeg7GK3eTDv1uVrqw/edit?utm_content=DAF-1XVQWtI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
 ## Data Sources:
 
 1. Education Data:
